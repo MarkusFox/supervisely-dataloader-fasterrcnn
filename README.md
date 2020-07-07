@@ -8,7 +8,7 @@ As of July 7th 2020 this code has been tested using:
 | 1.4.0 | 0.5.0       | >=3.6  |
 
 ## Usage
-<a href="https://supervise.ly" target="_blank">Supervisely</a> datasets are stored in the following folder structure:<br>
+<a href="https://supervise.ly">Supervisely</a> datasets are stored in the following folder structure:<br>
 
     /dataset_name/ann/img01.png.json
     /dataset_name/ann/img02.png.json
@@ -40,7 +40,7 @@ train_data_loader = torch.utils.data.DataLoader(
 imgs, targets = next(iter(train_data_loader))
 ```
 
-Note: collate_fn is taken from torch <a href="https://github.com/pytorch/vision/blob/master/references/detection/utils.py" target="_blank">vision/references/detection/utils.py</a><br>
+Note: collate_fn is taken from torch <a href="https://github.com/pytorch/vision/blob/master/references/detection/utils.py">vision/references/detection/utils.py</a><br>
 Just use this code:
 
 ```python
@@ -49,7 +49,7 @@ def collate_fn(batch):
 ```
 
 ## Tutorial
-In <a href="https://github.com/MarkusFox/supervisely-dataloader-fasterrcnn/blob/master/FasterRCNN-HowTo-Example.ipynb" target="_blank">FasterRCNN-HowTo-Example.ipynb</a> you find a full tutorial of how to use the dataloader to train a Faster-RCNN in PyTorch.<br>
+In <a href="https://github.com/MarkusFox/supervisely-dataloader-fasterrcnn/blob/master/FasterRCNN-HowTo-Example.ipynb">FasterRCNN-HowTo-Example.ipynb</a> you find a full tutorial on how to use the dataloader to train a Faster-RCNN in PyTorch.<br>
 It also includes code for visualization of the image and it's annotations.
 
 ## ToDos
